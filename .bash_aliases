@@ -10,3 +10,16 @@ alias gp='git push origin HEAD'
 alias gf='git fetch'
 alias gb='git branch --contains | cut -d " " -f 2'
 
+# alias
+alias -g L='| less'
+alias -g G='| grep'
+alias ..='cd ..'
+alias ls='ls -G'
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ls -la'
+alias c='clear'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias reload='exec $SHELL -l'
+
