@@ -19,6 +19,8 @@ alias gl='git log --oneline --graph --decorate'
 alias gp='git push origin HEAD'
 alias gf='git fetch'
 alias gb='git branch --contains | cut -d " " -f 2'
+alias restore='git restore --staged .'
+alias ammend='git commit --amend'
 
 # github alias
 alias pr='gh pr view --web'
